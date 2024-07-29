@@ -1,0 +1,95 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ body {
+    width: 50%;
+    margin: 50px auto;
+    background: whitesmoke;
+ }
+ h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+ }
+ .shipping-form {
+    border: 2px solid #000;
+    border-radius: 12px;
+    height: 825px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: beige;
+ }
+ .text-inputs {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 80%;
+    margin-top: 30px;
+    background-color: #fff;
+ }
+ .text-inputs div label {
+    padding: 0 20px;
+    font-size: 0.9rem;
+    font-weight: 650;
+ }
+ .text-inputs input {
+    margin: 20px 25px;
+    width: 75%;
+    height: 40px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+ }
+ 
+ 
+ .text-inputs .checkbox-div {
+    display: flex;
+    margin-left: 22px;
+ }
+ .text-inputs .checkbox-div label {
+    color: #000;
+    display: flex;
+    align-items: center;
+ }
+
+ button {
+    width: 40%;
+    margin-top: 40px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+ }
+ button:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+ }
+
+
+
+ 
+ @keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+    }
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
